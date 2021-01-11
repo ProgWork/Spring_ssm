@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybaits.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <!--<typeAlias type="com.qy.domain.Account" alias="account"/>-->
+        <package name="com.qy.domain"/>
+    </typeAliases>
+<!--    <mappers>
+        <mapper resource="com.qy.mapper/AccountMapper.xml"/>
+        &lt;!&ndash;        <package name="com.qy.mapper"/>&ndash;&gt;
+    </mappers>-->
+</configuration>
